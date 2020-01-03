@@ -32,33 +32,6 @@ modules = [
     "sy", "hse", "eam", "phd", "risk", "hsm", "cbs", "trn", "portal", "msg", "wtask", "rqreport", "pub"
 ]
 
-# @pytest.fixture(scope="class")
-# def login_sy():
-#     return login_session(URL_SY)
-# @pytest.fixture(scope="class")
-# def login_hse():
-#     return login_session(URL_HSE)
-# @pytest.fixture(scope="class")
-# def login_eam():
-#     return login_session(URL_EAM)
-# @pytest.fixture(scope="class")
-# def login_phd():
-#     return login_session(URL_PHD)
-# @pytest.fixture(scope="class")
-# def login_csc():
-#     return login_session(URL_CSC)
-# @pytest.fixture(scope="class")
-# def login_trn():
-#     return login_session(URL_TRN)
-# @pytest.fixture(scope="class")
-# def login_msg():
-#     return login_session(URL_MSG)
-# @pytest.fixture(scope="class")
-# def login_wtask():
-#     return login_session(URL_WTASK)
-# @pytest.fixture(scope="class")
-# def login_pub():
-#     return login_session(URL_PUB)
 class LoginDriver():
     """登录后的driver"""
     option = Options()
