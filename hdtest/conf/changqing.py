@@ -1,0 +1,17 @@
+
+URL_PORTAL="http://192.168.6.27:6030/portals"
+URL_SY="http://192.168.6.27:6030/sys"
+URL_HSE="http://192.168.6.27:6030/hses"
+URL_EAM="http://192.168.6.27:6030/eams"
+URL_PHD="http://192.168.6.27:6030/phds"
+URL_CSC="http://192.168.6.27:6030/cscs"
+URL_RISK="http://192.168.6.27:6030/risks"
+# URL_HSM="http://192.168.6.27:6030/hsms"
+URL_CBS="http://192.168.6.27:6030/cbss"
+# URL_TRN=""
+URL_MSG="http://192.168.6.27:6030/msgs"
+URL_WTASK="http://192.168.6.27:6030/wtasks"
+URL_PUB="http://192.168.6.27:6030/pubbases"
+LOGIN_TYPE=2
+name="test"
+password="1"

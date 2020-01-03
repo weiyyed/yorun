@@ -1,9 +1,12 @@
-def digui(x):
-    if x>0:
-        print("我在"+str(x),end="")
-        digui(x-1)
-        print("看电视"+str(x),end="")
-    else :
-        print("写作业"+str(x),end="")
+class A():
+    def __init__(self):
+        print("111")
+    def a(self):
+        print('a')
 
-digui(3)
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print('2222')
+
+b=B()
