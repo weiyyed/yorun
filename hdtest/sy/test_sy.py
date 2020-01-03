@@ -1,12 +1,14 @@
 # -*- coding: utf-8 -*-
 import pytest
-
-from hdtest.conftest import SY_META_URLS
+from hdtest.conftest import session_menu_urls
+from urllib.parse import urljoin
 
 
 class TestSy:
-    @pytest.mark.parametrize("url",SY_META_URLS,ids=SY_META_URLS)
+    ids = ["{}/getMetaData".format(url) for s, url in session_menu_urls]
+    @pytest.mark.parametrize("session,url",session_menu_urls,ids=ids)
     def test_meta(self,session,url):
+        url=urljoin(url,"getMetaData")
         r=session.get(url)
         assert r.status_code==200
 
