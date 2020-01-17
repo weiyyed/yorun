@@ -1,10 +1,10 @@
 import pytest
 
 
-def test_1():
-    assert 1
+def test_1(conf):
+    assert 0
 
 
 
 if __name__ == "__main__":
-    pytest.main(["-v"])
+    pytest.main(['-vs'])
